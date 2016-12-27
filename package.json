@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nard-Dog/portfolio.git"
+  },
+  "author": "Leonardo Bell <leo@nard.dog>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-rollup": "^2.7.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-wrap": "^0.13.0",
+    "rollup-plugin-multi-entry": "^2.0.1",
+    "uglify-js-harmony": "^2.6.2"
+  }
+}
