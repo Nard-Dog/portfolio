@@ -18,7 +18,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('markup', () => {
-	return gulp.src('src/**/*.pug')
+	return gulp.src(['src/**/*.pug', '!src/**/*.tpl.pug'])
 	.pipe(plugins.pug())
 	.pipe(gulp.dest('./'));
 });
